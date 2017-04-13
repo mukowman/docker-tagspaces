@@ -12,3 +12,4 @@ RUN apt-get update \
  && rm -rf tagspaces-${TAGSPACES_VERSION}-web.zip
 
 EXPOSE 80
+VOLUME /data
